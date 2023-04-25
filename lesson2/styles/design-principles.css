@@ -1,0 +1,39 @@
+header {
+    background-color:#133249;
+    text-align: center;
+}
+h1 {
+    color: white;
+    justify-content: center;
+}
+h2 {
+    color: white;
+    background-color: #133249;
+
+    margin: -10px;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+footer {
+    background-color: #133249;
+}
+section {
+    background-color: lightgray;
+    grid-row: 1;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+   
+
+}
+
