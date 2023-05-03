@@ -2,19 +2,20 @@ header {
     text-align: center;
     background-color: #2D3142;
     color: #C5D86D;
-    padding-top: 5px;
+    padding: 5px;
     font-family: 'Franklin Gothic Medium';
 }
 
-.navigation {
+nav {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
     background-color: #C1CFDA;
     padding: 15px;
     font-size: 18px;
-    
+    justify-content:space-evenly;
 }
-a {
+
+nav a {
     color: #2D3142;
     font-weight: 600;
     
@@ -22,7 +23,6 @@ a {
 
 table, tr, td {
     border: 1px solid;
-    width: 100;
     border-collapse: collapse;
     padding: 10px;
     margin-bottom: 10px;
@@ -82,7 +82,9 @@ body {
     font-family: 'Lucida Grande';
 }
 
-
+p {
+    font-family: 'Lucida Grande';
+}
 a:link {
     text-decoration: none;
 }
@@ -96,4 +98,16 @@ footer {
     background-color: #2D3142;
     color: #C5D86D;
     padding: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+@media only screen and (max-width:1439px) and (min-width:0px) {
+    nav {
+        flex-direction:column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:1440px) {
 }
