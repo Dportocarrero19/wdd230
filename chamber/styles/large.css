@@ -1,0 +1,113 @@
+header {
+    text-align: center;
+    background-color: #2D3142;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    padding-bottom: 20px;
+ }
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    background-color: #2D3142;
+    color: #C5D86D;
+    padding: 5px 0;
+    font-family: 'Franklin Gothic Medium';
+      
+}
+
+.box {
+    background-color: gray;
+    padding: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.navigation {
+    font-size: 25px;
+    justify-self: flex-end;
+    align-self: center;
+}
+nav a {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #C5D86D;
+
+    text-decoration: none;
+}
+
+
+
+h1 {
+    font-size: 35px;
+}
+
+.chamber-head {
+    font-size: 25px;
+    margin-top: -25px;
+    margin-right: 25px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    
+}
+
+
+footer {
+    background-color: #2D3142;
+    color: #C5D86D;
+    padding: 5px 0;
+    padding-left:10px;
+}
+
+#bottom {
+    text-align: center;
+}
+
+.small-logo {
+    width: 100px;
+}
+.big-logo {
+    width: 150px;
+}
+
+.footer-grid {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem; 
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 0;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+      
+}
+.contact-grid {
+    padding-right: 25px;
+    text-align: center;
+}
+
+#media-icons {
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.media {
+    align-self: center;
+}
+.location {
+    text-decoration: none;
+    color: #C5D86D;
+    
+}
