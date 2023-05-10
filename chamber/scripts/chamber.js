@@ -23,3 +23,6 @@ let dates = day + ",  " + numdate + " " + months + " " + year;
 
 document.querySelector(".date").innerHTML= dates;
 
+function toggleMenu() {
+    document.getElementsByClassName("navigation-list")[0].classList.toggle("responsive");
+}

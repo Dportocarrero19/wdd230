@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+
+
 </head>
 <body>
     <header>
@@ -18,34 +22,39 @@
                     <p class="chamber-head">Chamber of Commerce</p>
                 </section>       
             </div>
-        
-            <div class = "navigation">
-                <nav>
-                    <a href="">Discover</a>
-                    <a href="">Directory</a>
-                    <a href="">Join</a>
-                    <a href="">Contact</a>
-                </nav>
-            </div>
-        
             <div class="media">
                 <img id="media-icons" src="images/facebook-icon.png">
                 <img id="media-icons" src="images/linkedin-icon.png">
             </div>
         </div>
 
+        <div class = "navigation">
+            <nav>
+                <ul class = navigation-list>
+                    <li><a href="#" class="sandwitch" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="box">
             <span class="date"></span>
         </div>
     </header>
 
     <main>
-        <h3>Event</h3>
-        <h3>Weather</h3>
-        <h3>Join</h3>
-        <h3>Hero with site name and call to action</h3>
-        <h3>News Release</h3>
-        <h3>Spotlight</h3>
+        <h3 class = "hero">Hero with site name and call to action</h3>
+        <h3 class = "event">Event</h3>
+        <h3 class = "weather">Weather</h3>
+        <h3 class = "join">Join</h3>
+        <h3 class = "news Release">News Release</h3>
+        <h3 class = "spotlight">
+            <p class="spot-1">Spotlight 1</p>
+            <p class="spot-2">Spotlight 2</p>
+            <p class="spot-3">Spotlight 3</p>
+        </h3>
     </main>
 
     <footer>
@@ -61,7 +70,7 @@
 
             <section class="contact-grid"></div>
                 <p>info@ColumbiaHeightscc.org </p>
-                <p>+(207) 815-4273</p>
+                <p>+1 (207) 815-4273</p>
                 <a class="location" href="">Location map</a>
             </section>
         </section>

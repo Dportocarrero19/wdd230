@@ -1,0 +1,86 @@
+@media screen and (min-width:760px) {
+
+    footer {
+        background-color: #2D3142;
+        color: #C5D86D;
+        padding: 5px 0;
+        padding-left:10px;
+    }
+
+    #bottom {
+        text-align: center;
+    }
+
+    .big-logo {
+        width: 150px;
+    }
+   .footer-grid {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem; 
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5px 0;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 17px;
+        
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+        
+        
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .event {
+        grid-column: 1 / span 2;
+        grid-row: 5;
+        
+        
+       
+    }
+
+    .weather {
+        
+        grid-column: 3;
+        grid-row: 5;
+       
+        
+    }
+
+    .join {
+        display: block;
+        
+        grid-column: 1;
+        grid-row: 3;
+        
+       
+    }
+
+    .hero {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+        
+    }
+    .news {
+       
+        
+        grid-column: 1 / span 3;
+        grid-row: 2;
+        
+    }
+    .spotlight {
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1 / span 3;
+        grid-row: 3;
+      
+    }
+}
