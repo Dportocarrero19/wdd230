@@ -5,7 +5,7 @@
         text-align: center;
         background-color: #2D3142;
         color: white;
-        font-family: 'Franklin Gothic Medium';
+        
         padding-bottom: 20px;
     }
 
@@ -15,7 +15,6 @@
         background-color: #2D3142;
         color: #C5D86D;
         padding: 5px 0;
-        font-family: 'Franklin Gothic Medium';
         
     }
 
@@ -119,7 +118,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 5px 0;
-        font-family: 'Franklin Gothic Medium';
         font-size: 17px;
         
     }
@@ -128,7 +126,7 @@
         text-align: center;
     }
 
-    #media-icons {
+    .media-icons {
         width: 50px;
         padding-left: 5px;
         padding-right: 5px;
@@ -188,13 +186,14 @@
         background-color: lightgray;
     }
     .news {
-        padding: 25px;
+        padding-top: 25px;
         height: 200px;
         grid-column: 2;
         grid-row: 3;
         background-color: lightgray;
     }
     .spotlight {
+        margin: 20px;
         padding: 25px;
         grid-column: 3;
         grid-row: 1/4;

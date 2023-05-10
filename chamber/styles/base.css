@@ -2,17 +2,19 @@ header {
     text-align: center;
     background-color: #2D3142;
     color: white;
-    font-family: 'Franklin Gothic Medium';
     padding-bottom: 20px;
+    font-family: 'Didact Gothic';
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', serif;
 }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #2D3142;
     color: #C5D86D;
-    padding: 5px 0;
-    font-family: 'Franklin Gothic Medium';
-    
+    padding: 5px 0;    
 }
 
 .box {
@@ -70,7 +72,7 @@ h1 {
 .small-logo {
     width: 75px;
 }
-#media-icons {
+.media-icons {
     width: 30px;
     padding-left: 2px;
     padding-right: 2px;
@@ -169,6 +171,8 @@ footer {
 }
 
 .spotlight {
+    margin-bottom: 20px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr;
     padding: 25px;

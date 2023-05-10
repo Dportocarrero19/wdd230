@@ -24,7 +24,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 5px 0;
-        font-family: 'Franklin Gothic Medium';
         font-size: 17px;
         
     }
@@ -81,6 +80,6 @@
         grid-template-columns: 1fr 1fr;
         grid-column: 1 / span 3;
         grid-row: 3;
-      
+        
     }
 }

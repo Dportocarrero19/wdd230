@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Author" content="Dario Portocarrero">
+    <meta name="Description" content="Website for Chamber of Commerce of Columbia Heights, Washington DC.">
+    <title>Columbia Heights Chamber Of Commerce</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -23,8 +26,8 @@
                 </section>       
             </div>
             <div class="media">
-                <img id="media-icons" src="images/facebook-icon.png">
-                <img id="media-icons" src="images/linkedin-icon.png">
+                <a href="https://www.facebook.com/"><img class="media-icons" src="images/facebook-icon.png" alt="facebook media icon"></a>
+                <a href="https://www.linkedin.com/"><img class="media-icons" src="images/linkedin-icon.png" alt="Linkedin media icon"></a>
             </div>
         </div>
 
@@ -50,30 +53,31 @@
         <h3 class = "weather">Weather</h3>
         <h3 class = "join">Join</h3>
         <h3 class = "news Release">News Release</h3>
-        <h3 class = "spotlight">
+        <div class = "spotlight">
             <p class="spot-1">Spotlight 1</p>
             <p class="spot-2">Spotlight 2</p>
             <p class="spot-3">Spotlight 3</p>
-        </h3>
+        </div>
+
     </main>
 
     <footer>
-        <section class= "footer-container">
-            <section class="footer-grid">
+        <div class= "footer-container">
+            <div class="footer-grid">
                 <img class = "big-logo" src="images/Chamber-scales.png" alt="Chamber logo for site">
-                <section>
+                <div>
                     <h4>Columbia Heights Chamber of Commerce</h4>
                     <p>527 Sherman St.</p>
                     <p>Washington DC 20024</p>
-                </section>
-            </section>
+                </div>
+            </div>
 
-            <section class="contact-grid"></div>
+            <div class="contact-grid">
                 <p>info@ColumbiaHeightscc.org </p>
                 <p>+1 (207) 815-4273</p>
-                <a class="location" href="">Location map</a>
-            </section>
-        </section>
+                <a class="location" href="https://www.google.com/maps/place/Columbia+Heights,+Washington,+DC/@38.9282979,-77.0411939,15z/data=!3m1!4b1!4m6!3m5!1s0x89b7c81e5c6ee1c1:0x569ff524d936e0a4!8m2!3d38.9276414!4d-77.0297181!16zL20vMDN2NTl4">Location map</a>
+            </div>
+        </div>
 
         <hr>
         <p id="bottom">&copy; <span class="currentyear"></span> Columbia Heights Chamber | Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
