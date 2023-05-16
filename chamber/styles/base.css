@@ -131,14 +131,16 @@ footer {
    
 }
 .hero {
-    
+    margin-bottom: 20px;
+    margin-top: 20px;
     padding: 25px;
     background-color: lightgray;
     
 }
 .event {
     
-   
+    margin-bottom: 20px;
+    margin-top: 20px;
     background-color: lightgray;
     padding: 25px;
     
@@ -146,7 +148,8 @@ footer {
 
 .weather {
     padding: 25px;
-    
+    margin-bottom: 20px;
+    margin-top: 20px;
     
     background-color: lightgray;
 }
@@ -155,12 +158,16 @@ footer {
     display: none;
     padding: 25px;
     background-color: lightgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
 }
 
 .news {
     padding: 25px;
     background-color: lightgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .spot-1, .spot-2, .spot-3 {

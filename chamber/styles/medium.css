@@ -50,7 +50,6 @@
         
         grid-column: 3;
         grid-row: 6;
-       
         
     }
 
@@ -58,20 +57,18 @@
         display: block;
         grid-column: 1 / span 3;
         grid-row: 4;
-        margin-top: -20px;
-        margin-bottom: -30px;
+        
 
     }
 
     .hero {
         grid-column: 1 / span 3;
         grid-row: 1;
-        
+       
         
     }
     .news {
-        margin-top: -20px;
-        margin-bottom: -20px;
+       
         
         grid-column: 1 / span 3;
         grid-row: 2;
