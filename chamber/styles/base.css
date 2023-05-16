@@ -153,13 +153,13 @@ footer {
 
 .join {
     display: none;
+    padding: 25px;
+    background-color: lightgray;
+
 }
 
 .news {
     padding: 25px;
-    
- 
-   
     background-color: lightgray;
 }
 
