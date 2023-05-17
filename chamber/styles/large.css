@@ -39,6 +39,7 @@
     .navigation-list li{
         display: block;
         flex: 1 1 100%;
+        padding: 10px;
     }
     .navigation-list {
         display: flex;
@@ -51,13 +52,14 @@
         text-decoration: none;
     }
 
-    nav ul li a{
+    nav li{
         border-left: 1px solid lightgrey;
-    }
-    
-    nav ul {
         border-right: 1px solid lightgrey;
-        
+
+    }
+
+    .navigation li:hover {
+        background-color: #00aab7;
     }
 
     .navigation a {
