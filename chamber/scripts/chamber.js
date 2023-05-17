@@ -30,6 +30,10 @@ function toggleMenu() {
 if (day == 'Monday'||day == 'Tuesday'){
     const meeting = document.querySelector('div');
     meeting.innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+    meeting.style.backgroundColor ='#006080';
+    meeting.style.borderBottomLeftRadius = '50px';
+    meeting.style.borderBottomRightRadius = '50px';
+    meeting.style.padding = '10px';
 
     const contain = document.getElementById('meeting-time')
     contain.appendChild(meeting);

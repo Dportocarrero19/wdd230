@@ -145,21 +145,19 @@
     }
 
     main {
-        display: grid;
-        
+        display: grid;    
     }
 
     .event {
         grid-column: 1;
         grid-row: 1;
         
-        height: 200px;
     }
 
     .weather {
         grid-column: 1;
         grid-row: 2;
-        height: 200px;
+        
         margin-bottom: -20px;
         margin-top: -20px;
     }
@@ -168,7 +166,7 @@
         display: block;
         grid-column: 1;
         grid-row: 3;
-        height: 200px;
+        
     }
 
     .hero {
@@ -178,14 +176,11 @@
        
     }
     .news {
-        
-        height: 200px;
         grid-column: 2;
         grid-row: 3;
 
     }
     .spotlight {
-       
         grid-column: 3;
         grid-row: 1/4;
         grid-template-columns: 1fr;

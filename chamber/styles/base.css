@@ -173,38 +173,80 @@ footer {
     
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: lightgray;
+    background-color: #2D3142;
     padding: 25px;
+    color:white;
+    text-align: center;
     
 }
 
+h2 {
+    text-shadow: 1px 1px 10px black;
+    font-weight: bold;
+    color: #C5D86D;
+    font-size: 26px;
+}
+.more {
+    color:yellow;
+}
 .weather {
     padding: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
-    
-    background-color: lightgray;
+    background-color: #2D3142;
+    color:white;
+    text-align: center;
 }
 
 .join {
     display: none;
     padding: 25px;
-    background-color: lightgray;
     margin-bottom: 20px;
     margin-top: 20px;
+    background-color: #2D3142;
+    color: white;
+    text-align: center;
+}
 
+.join-button {
+    color:#C5D86D;
+    background-color: #006080;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    font-size: 40px;
+    box-shadow: black 1px 1px 10px 3px;
 }
 
 .news {
     padding: 25px;
-    background-color: lightgray;
     margin-bottom: 20px;
     margin-top: 20px;
+    background-color: #2D3142;
+    text-align: center;
+    color: white;
 }
 
 .spot-1, .spot-2, .spot-3 {
-    border-style: solid ;
+    border-style: solid;
+    background-color: #2D3142;
+    box-shadow: 5px 5px 50px black;
+    
+    text-align: center;
+    
 }
+.spot-1 p, .spot-2 p, .spot-3 p {
+    color: white;
+}
+
+.spot-line {
+    width: 90%;
+}
+
+.spot-image {
+    width: 100px;
+    height: 100px;
+}
+
 .spot-3 {
     display: none;
 }
@@ -215,11 +257,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     padding: 25px;
-    background-color: lightgray;
+    background-color: #2D3142;
     gap: 10px;
-}
-#meeting-time {
-    background-color: #006080;
-    border-radius: 0px 0px 50px 50px;
-    padding: 10px;
+    
 }
