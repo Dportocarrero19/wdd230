@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+img {
+    background: #F1F1FA;
+    display: block;
+    margin: 10px auto;
+    border: 0;
+  }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles/lazyload.css">
+    </head>
+    <body>
+        <main>
+            <h1>Progressive Loading images</h1>
+            <picture><img src="images/greybox.jpg" data-src="images/livingroom.jpg"  alt="picture of a livingroom"></picture>
+            <picture><img src="images/greybox.jpg" data-src="images/home.jpg" alt="picture of inside of a home"></picture>
+            <picture><img src="images/greybox.jpg" data-src="images/couch.jpg" alt="couch picture"></picture>
+            <picture><img src="images/greybox.jpg" data-src="images/bedroom.jpg" alt="bedroom picture"></picture>
+            <picture><img src="images/greybox.jpg" data-src="images/outside.jpg" alt="Grey box placeholder"></picture>
+            
+            <script src="scripts/lazyload.js" defer></script>
+        </main>
+    </body>
+</html>
+
