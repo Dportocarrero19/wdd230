@@ -28,7 +28,7 @@
         
     }
     
-    main {
+    .main-contain {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
@@ -82,4 +82,18 @@
         
         
     }
+       
+    .discover-img p {
+        font-size: 20px;
+    }
+    
+    .discover-img img {
+        transition: 1s ease;
+    }
+
+    .discover-img img:hover {
+        border-radius: 50%;
+        transition: 1s ease;
+    }
+
 }

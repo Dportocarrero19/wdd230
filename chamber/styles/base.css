@@ -131,7 +131,7 @@ footer {
     text-align: center;
 }
 
-.main {
+main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -265,4 +265,21 @@ h2 {
     background-color: #2D3142;
     gap: 10px;
     
+}
+
+.discover-img {
+    margin-top: 15px;
+}
+
+.discover-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.discover-img p {
+    background-color: #2D3142;
+    color:#C5D86D;
+    padding: 10px;
+    font-size: 12px;
 }

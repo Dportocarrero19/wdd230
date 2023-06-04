@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columbia Heights Chamber Of Commerce: Discover</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+
+        <div id="meeting-time"></div>
+
+        <div class = "container">
+            <div class = "logo">
+                <img class = "small-logo" src="images/Chamber-scales.webp" alt="Chamber logo for site">
+            
+                <section class="headings">
+                    <h1>Columbia Heights</h1>
+                    <p class="chamber-head">Chamber of Commerce</p>
+                </section>       
+            </div>
+            <div class="media">
+                <a href="https://www.facebook.com/"><img class="media-icons" src="images/facebook-icon.png" alt="facebook media icon"></a>
+                <a href="https://www.linkedin.com/"><img class="media-icons" src="images/linkedin-icon.png" alt="Linkedin media icon"></a>
+            </div>
+        </div>
+
+        <div class = "navigation">
+            <nav>
+                <ul class = navigation-list>
+                    <li><a href="#" class="sandwitch" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box">
+            <span class="date"></span>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="discover-img">
+            <img class="lazy" src="images/placeholder.jpg" data-src="images/bridge.jpg" alt="Bridge from washington dc">
+            <p> Lorem ipsum</p>
+            <img class="lazy" src="images/placeholder.jpg" data-src="images/castle.jpg" alt="Castle from Smithsonian">
+            <p> Lorem ipsum</p>
+            <img class="lazy" src="images/placeholder.jpg" data-src="images/monument.jpg" alt="George Washington Monument">
+            <p> Lorem ipsum</p>  
+            <img class="lazy" src="images/placeholder.jpg" data-src="images/sidewalk.jpg" alt="DC sidewalk">
+            <p> Lorem ipsum</p>  
+            <img class="lazy" src="images/placeholder.jpg" data-src="images/street.jpg" alt="DC Street"> 
+            <p> Lorem ipsum</p> 
+            <script src="scripts/lazyloading.js" defer></script>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class= "footer-container">
+            <div class="footer-grid">
+                <img class = "big-logo" src="images/Chamber-scales.webp" alt="Chamber logo for site">
+                <div>
+                    <h4>Columbia Heights Chamber of Commerce</h4>
+                    <p>527 Sherman St.</p>
+                    <p>Washington DC 20024</p>
+                </div>
+            </div>
+
+            <div class="contact-grid">
+                <p>info@ColumbiaHeightscc.org </p>
+                <p>+1 (207) 815-4273</p>
+                <a class="location" href="https://www.google.com/maps/place/Columbia+Heights,+Washington,+DC/@38.9282979,-77.0411939,15z/data=!3m1!4b1!4m6!3m5!1s0x89b7c81e5c6ee1c1:0x569ff524d936e0a4!8m2!3d38.9276414!4d-77.0297181!16zL20vMDN2NTl4">Location map</a>
+            </div>
+        </div>
+
+        <hr>
+        <p id="bottom">&copy; <span class="currentyear"></span> Columbia Heights Chamber | Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
+        <script src="scripts/chamber.js"></script>
+        
+    </footer>
+</body>
+</html>
