@@ -1,0 +1,34 @@
+tbody {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 7px 15px;
+}
+td {
+    text-align: center;
+}
+table {
+    border: thin solid lightgray;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+#acme {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    
+}
+#blank {
+    background-color: black;
+}
+.top {
+    background-color: darkslategray;
+    color: white;
+    padding: 12px;
+}
