@@ -191,4 +191,10 @@
     .spot-3 {
         display: block;
     }
+    .membership-container {
+        gap: 50px;
+    }
+    .membership-section {
+        line-height: 2;
+    }
 }

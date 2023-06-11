@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+
+        <div id="meeting-time"></div>
+
+        <div class = "container">
+            <div class = "logo">
+                <img class = "small-logo" src="images/Chamber-scales.webp" alt="Chamber logo for site">
+            
+                <section class="headings">
+                    <h1>Columbia Heights</h1>
+                    <p class="chamber-head">Chamber of Commerce</p>
+                </section>       
+            </div>
+            <div class="media">
+                <a href="https://www.facebook.com/"><img class="media-icons" src="images/facebook-icon.png" alt="facebook media icon"></a>
+                <a href="https://www.linkedin.com/"><img class="media-icons" src="images/linkedin-icon.png" alt="Linkedin media icon"></a>
+            </div>
+        </div>
+
+        <div class = "navigation">
+            <nav>
+                <ul class = navigation-list>
+                    <li><a href="#" class="sandwitch" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box">
+            <span class="date"></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="membership-container">
+            <form action="thankyou.html" method="get">
+                <div class="information-section">
+                    <p class="center-title">Personal information</p>
+                    <hr>
+                    <div class="form">
+                        <label for="title">Business position title: </label>
+                        <input type="text" name="title" id="title" pattern="[A-Za-z0-9\s\-]{7,}" >
+                    </div>
+                    <div class="form">
+                        <label for="fname">Enter your first name: </label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div class="form">
+                        <label for="lname">Enter your last name: </label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                </div>
+                <div class="information-section">
+                    <p class="center-title">Contact Information</p>
+                    <hr>
+                    <div class="form">
+                        <label for="email">Email Address: </label>
+                        <input type="email" name="email" id="email" placeholder="text@email.com" required>
+                    </div>
+                    <div class="form">
+                        <label for="telephone">Telephone number: </label>
+                        <input type="tel" name="telephone" id="telephone" required>
+                    </div>
+                </div>
+                <div class="information-section">
+                    <p class="center-title">Business Information</p>
+                    <hr>
+                    <div class="form">
+                        <label for="bname">Business name/title: </label>
+                        <input type="text" name="bname" id="bname" required>
+                    </div>
+                    <div class="form">
+                        <label for="bdesc">Describe your business: </label>
+                        <textarea name="bdesc" id="bdesc" rows="4" cols="45"> </textarea>
+                    </div>
+                    <div class="form">
+                        <input type="hidden" name="date" id="date">
+                        <input type="hidden" name="time" id="time">
+                        <script src ="scripts/join.js"></script>
+                    </div>
+                    <div class="form">
+                        <p>Select membership level of your choosing:</p>
+                        <input type="radio" name="memberships" id="np" required>
+                        <label for="np">NP Membership </label><br>
+                        <input type="radio" name="memberships" id="bronze" required>
+                        <label for="bronze">Bronze Membership </label><br>
+                        <input type="radio" name="memberships" id="silver" required>
+                        <label for="silver">Silver Membership </label><br>
+                        <input type="radio" name="memberships" id="gold" required>
+                        <label for="gold">Gold Membership </label><br>
+                    </div>
+                    <div class="join-now">
+                        <input type="submit" value="Join Now!">
+                    </div>
+                </div>
+            </form>
+            <div class="membership-section">
+                <p>NP Membership</p>
+                <p>This membership is offered for non-profit companies only and is free of charge. It offeres all benefits from Gold members and below. </p>
+                <hr>
+                <p>Bronze Membership</p>
+                <p>The Bronze membership is a great tier for new/small businesses who are looking to grow. This tier offers trainings and mentorship programs to help you with your business.The cost of the membership is $20 a month.</p>
+                <hr>
+                <p>Silver Membership</p>
+                <p>The silver tier is the most popular tier. It grants you all the bronze tier's benefits, aswell as event discounts and invitations for exclusive networking events. The cost of the membership is $30 a month. </p>
+                <hr>
+                <p>Gold Membership</p>
+                <p>The gold tier is an exlusive membership tier. This tier grants you both the silver and bronze tiers benefits, alongside advertising on the front page in the spotlight section. You will also be able to attend "Gold member only" chamber meetings and discuss business oppertunities with other Gold members and chamber staff. The cost of the membership is $50 a month.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class= "footer-container">
+            <div class="footer-grid">
+                <img class = "big-logo" src="images/Chamber-scales.webp" alt="Chamber logo for site">
+                <div>
+                    <h4>Columbia Heights Chamber of Commerce</h4>
+                    <p>527 Sherman St.</p>
+                    <p>Washington DC 20024</p>
+                </div>
+            </div>
+
+            <div class="contact-grid">
+                <p>info@ColumbiaHeightscc.org </p>
+                <p>+1 (207) 815-4273</p>
+                <a class="location" href="https://www.google.com/maps/place/Columbia+Heights,+Washington,+DC/@38.9282979,-77.0411939,15z/data=!3m1!4b1!4m6!3m5!1s0x89b7c81e5c6ee1c1:0x569ff524d936e0a4!8m2!3d38.9276414!4d-77.0297181!16zL20vMDN2NTl4">Location map</a>
+            </div>
+        </div>
+
+        <hr>
+        <p id="bottom">&copy; <span class="currentyear"></span> Columbia Heights Chamber | Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
+        <script src="scripts/chamber.js"></script>
+        
+    </footer>
+</body>
+</html>

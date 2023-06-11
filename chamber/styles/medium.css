@@ -95,5 +95,15 @@
         border-radius: 50%;
         transition: 1s ease;
     }
-
+    .membership-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    form {
+        text-indent: 30px;
+    }
+    .membership-section {
+        line-height: 1.4;
+    }
 }
