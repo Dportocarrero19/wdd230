@@ -1,0 +1,28 @@
+
+h1, h2 {
+    color: darkblue;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+section {
+    background-color: lightblue;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    
+    border: solid darkblue;
+    
+}
+img {
+    width: 175px;
+    height: auto;
+    box-shadow:  0px 5px 15px;
+}
+.cards {
+    box-shadow:  0px 5px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
