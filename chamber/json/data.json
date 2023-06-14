@@ -1,0 +1,87 @@
+{
+    "Businesses": [
+        {
+            "name": "Express Taxi",
+            "address": "302 Gartner Rd. Washington DC, 20041",
+            "phone number": "202 139 1495",
+            "website url": "Expresstaxi.com",
+            "image": "images/bridge.jpg",
+            "membership level": "silver"
+        },
+        {
+            "name": "Watches Deluxe",
+            "address": "912 Galvin Dr. Washington DC, 20014",
+            "phone number": "202 432 1945",
+            "website url": "Watchesdel.com",
+            "image": "",
+            "membership level": "gold"
+        },
+        {
+            "name": "Clover's Boutique",
+            "address": "184 Gulf St. Washington DC, 20015",
+            "phone number": "202 931 2394",
+            "website url": "Cloverboutique.com",
+            "image": "",
+            "membership level": "gold"
+        },
+        {
+            "name": "Johnson trust",
+            "address": "921 Chapel Ave. Washington DC, 20012",
+            "phone number": "202 684 1022",
+            "website url": "Johnsontrust.com",
+            "image": "",
+            "membership level": "silver"
+        },
+        {
+            "name": "Galaxy Tech",
+            "address": "423 Arcadia St. Washington DC, 20091",
+            "phone number": "202 581 1000",
+            "website url": "Galaxytech.com",
+            "image": "",
+            "membership level": "bronze"
+        },
+        {
+            "name": "Tabletop Emporium",
+            "address": "951 Rockaway Rd. Washington DC, 20012",
+            "phone number": "202 691 1023",
+            "website url": "Tabletopemporium.com",
+            "image": "",
+            "membership level": "bronze"
+        },
+        {
+            "name": "Italian Pizza",
+            "address": "12 East Princeton Ln. Washington DC, 20070",
+            "phone number": "202 241 3214",
+            "website url": "Itapizz.com",
+            "image": "",
+            "membership level": "silver"
+        },
+        {
+            "name": "Sky Automotive",
+            "address": "120 Water Rd. Washington DC, 20086",
+            "phone number": "202 156 3501",
+            "website url": "Skyautomotive.com",
+            "image": "",
+            "membership level": "gold"
+        },
+        {
+            "name": "CH Taxes",
+            "address": "214 Windfall Ln. Washington DC, 20054",
+            "phone number": "202 930 0843",
+            "website url": "Chtaxes.com",
+            "image": "",
+            "membership level": "gold"
+        },
+        {
+            "name": "MedHelp",
+            "address": "104 Lakewood Ave. Washington DC, 20012",
+            "phone number": "202 999 6123",
+            "website url": "medhelp.org",
+            "image": "",
+            "membership level": "np"
+        }
+
+
+
+    ]
+}
