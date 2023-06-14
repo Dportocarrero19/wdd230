@@ -379,4 +379,8 @@ h2 {
 	padding: 1rem;
 	font-weight: 700;
 }
+.logolink, .logolink:visited, .logolink:active, .logolink:link  {
+    text-decoration: none;
+    color: #C5D86D;
+}
 
