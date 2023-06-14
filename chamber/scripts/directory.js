@@ -1,44 +1,43 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-async function getProphetData() {
+const url = 'https://dportocarrero19.github.io/wdd230/chamber/json/data.json';
+async function getBusinessesData() {
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
-    displayProphets(data.prophets);
+    display(data.Businesses);
 };
 
-getProphetData();
+getBusinessesData();
 
-const displayProphets = (prophets) => {
+const display = (Businesseses) => {
     const cards = document.querySelector('div.cards'); // select the output container element
   
-    prophets.forEach((prophet) => {
+    Businesseses.forEach((Businesses) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let birth = document.createElement('p');
         let place = document.createElement('p');
-        let portrait = document.createElement('img');
+        let photo = document.createElement('img');
         
     
         // Build the h2 content out to show the prophet's full name - finish the template string
         h2.textContent = `${prophet.name} ${prophet.lastname}`;
-        birth.textContent = `Date of Birth: ${prophet.birthdate}`;
-        place.textContent = `Place of Birth: ${prophet.birthplace}`;
+        birth.textContent = `Date of Birth: ${Businesses.address}`;
+        place.textContent = `Place of Birth: ${prophet.phonenumber}`;
         // Build the image portrait by setting all the relevant attribute
-        portrait.setAttribute('src', prophet.imageurl);
-        portrait.setAttribute('alt',`${prophet.birthdate}`);
-        portrait.setAttribute('alt',`${prophet.birthplace}`);
-        portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        photo.setAttribute('src', Businesses.image);
+        photo.setAttribute('alt',`${Businesses.address}`);
+        photo.setAttribute('alt',`${prophet.phonenumber}`);
+        photo.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
+        photo.setAttribute('loading', 'lazy');
+        photo.setAttribute('width', '340');
+        photo.setAttribute('height', '440');
         
         
         // Append the section(card) with the created elements
         card.appendChild(h2);
         card.appendChild(birth);
         card.appendChild(place);
-        card.appendChild(portrait);
+        card.appendChild(photo);
 
         cards.appendChild(card);
     }) // end of forEach loop
