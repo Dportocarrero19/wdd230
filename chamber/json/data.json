@@ -5,7 +5,7 @@
             "address": "302 Gartner Rd. Washington DC, 20041",
             "phone number": "202 139 1495",
             "website url": "Expresstaxi.com",
-            "image": "images/bridge.jpg",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxi.jpg",
             "membership level": "silver"
         },
         {
@@ -13,7 +13,7 @@
             "address": "912 Galvin Dr. Washington DC, 20014",
             "phone number": "202 432 1945",
             "website url": "Watchesdel.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/watch.jpg",
             "membership level": "gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "184 Gulf St. Washington DC, 20015",
             "phone number": "202 931 2394",
             "website url": "Cloverboutique.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/clover.jpg",
             "membership level": "gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "921 Chapel Ave. Washington DC, 20012",
             "phone number": "202 684 1022",
             "website url": "Johnsontrust.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/trust.jpg",
             "membership level": "silver"
         },
         {
@@ -37,7 +37,7 @@
             "address": "423 Arcadia St. Washington DC, 20091",
             "phone number": "202 581 1000",
             "website url": "Galaxytech.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/technology.jpg",
             "membership level": "bronze"
         },
         {
@@ -45,7 +45,7 @@
             "address": "951 Rockaway Rd. Washington DC, 20012",
             "phone number": "202 691 1023",
             "website url": "Tabletopemporium.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/tabletop.jpg",
             "membership level": "bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "12 East Princeton Ln. Washington DC, 20070",
             "phone number": "202 241 3214",
             "website url": "Itapizz.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/itapizz.jpg",
             "membership level": "silver"
         },
         {
@@ -61,7 +61,7 @@
             "address": "120 Water Rd. Washington DC, 20086",
             "phone number": "202 156 3501",
             "website url": "Skyautomotive.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/automotive.jpg",
             "membership level": "gold"
         },
         {
@@ -69,7 +69,7 @@
             "address": "214 Windfall Ln. Washington DC, 20054",
             "phone number": "202 930 0843",
             "website url": "Chtaxes.com",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxes.jpg",
             "membership level": "gold"
         },
         {
@@ -77,7 +77,7 @@
             "address": "104 Lakewood Ave. Washington DC, 20012",
             "phone number": "202 999 6123",
             "website url": "medhelp.org",
-            "image": "",
+            "image": "https://dportocarrero19.github.io/wdd230/chamber/images/medical.jpg",
             "membership level": "np"
         }
 
