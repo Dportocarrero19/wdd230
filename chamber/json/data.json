@@ -6,7 +6,7 @@
             "phonenumber": "202 139 1495",
             "websiteurl": "Expresstaxi.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxi.jpg",
-            "membershiplevel": "silver"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Watches Deluxe",
@@ -14,7 +14,7 @@
             "phonenumber": "202 432 1945",
             "websiteurl": "Watchesdel.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/watch.jpg",
-            "membershiplevel": "gold"
+            "membershiplevel": "Gold"
         },
         {
             "name": "Clover's Boutique",
@@ -22,7 +22,7 @@
             "phonenumber": "202 931 2394",
             "websiteurl": "Cloverboutique.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/clover.jpg",
-            "membershiplevel": "gold"
+            "membershiplevel": "Gold"
         },
         {
             "name": "Johnson trust",
@@ -30,7 +30,7 @@
             "phonenumber": "202 684 1022",
             "websiteurl": "Johnsontrust.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/trust.jpg",
-            "membershiplevel": "silver"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Galaxy Tech",
@@ -38,7 +38,7 @@
             "phonenumber": "202 581 1000",
             "websiteurl": "Galaxytech.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/technology.jpg",
-            "membershiplevel": "bronze"
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Tabletop Emporium",
@@ -46,7 +46,7 @@
             "phonenumber": "202 691 1023",
             "websiteurl": "Tabletopemporium.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/tabletop.jpg",
-            "membershiplevel": "bronze"
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Italian Pizza",
@@ -54,7 +54,7 @@
             "phonenumber": "202 241 3214",
             "websiteurl": "Itapizz.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/itapizz.jpg",
-            "membership level": "silver"
+            "membership level": "Silver"
         },
         {
             "name": "Sky Automotive",
@@ -62,7 +62,7 @@
             "phonenumber": "202 156 3501",
             "websiteurl": "Skyautomotive.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/automotive.jpg",
-            "membershiplevel": "gold"
+            "membershiplevel": "Gold"
         },
         {
             "name": "CH Taxes",
@@ -70,7 +70,7 @@
             "phonenumber": "202 930 0843",
             "websiteurl": "Chtaxes.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxes.jpg",
-            "membershiplevel": "gold"
+            "membershiplevel": "Gold"
         },
         {
             "name": "MedHelp",
@@ -78,7 +78,7 @@
             "phonenumber": "202 999 6123",
             "websiteurl": "medhelp.org",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/medical.jpg",
-            "membershiplevel": "np"
+            "membershiplevel": "NP"
         }
 
 
