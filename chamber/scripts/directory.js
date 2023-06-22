@@ -29,6 +29,7 @@ const display = (Businesseses) => {
         member.textContent= `${Businesses.membershiplevel} member`;
         photo.setAttribute('src', Businesses.image);
         photo.setAttribute('loading', 'lazy');
+        photo.setAttribute('alt','image icons of directory businesses')
        
         
         card.appendChild(photo);
