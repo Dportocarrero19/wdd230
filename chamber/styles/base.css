@@ -384,3 +384,8 @@ h2 {
     color: #C5D86D;
 }
 
+#weather-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
