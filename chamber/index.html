@@ -11,16 +11,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQJSBXMVJH"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-QQJSBXMVJH');
-    </script>
-
 </head>
 
 <body>
@@ -102,8 +92,8 @@
             </div>
             <div class = "spotlight">
                 <div class="spot-1">
-                    <h2>Pizza Delivery</h2>
-                    <img class="spot-image" src="images/itapizz.jpg" alt="deliver pizza image">
+                    <h2><span id="spotlight-h2"></span></h2>
+                    <img src="" id="spotlight-image"/>
                     <p>Authentic Italian Pizza</p>
                     <hr class="spot-line">
                     <p>+202-241-3214 | ItaPizz.com</p>
@@ -122,6 +112,7 @@
                     <hr class="spot-line">
                     <p>+202-930-0843 | CHTax.com</p>
                 </div>
+                <script src="scripts/spotlight.js"></script>
             </div>
         </div>
     </main>

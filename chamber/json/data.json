@@ -6,6 +6,7 @@
             "phonenumber": "202 139 1495",
             "websiteurl": "Expresstaxi.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxi.jpg",
+            "icon": "taxi",
             "membershiplevel": "Silver"
         },
         {
@@ -14,6 +15,7 @@
             "phonenumber": "202 432 1945",
             "websiteurl": "Watchesdel.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/watch.jpg",
+            "icon": "watch",
             "membershiplevel": "Gold"
         },
         {
@@ -22,6 +24,7 @@
             "phonenumber": "202 931 2394",
             "websiteurl": "Cloverboutique.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/clover.jpg",
+            "icon": "clover",
             "membershiplevel": "Gold"
         },
         {
@@ -30,6 +33,7 @@
             "phonenumber": "202 684 1022",
             "websiteurl": "Johnsontrust.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/trust.jpg",
+            "icon": "trust",
             "membershiplevel": "Silver"
         },
         {
@@ -38,6 +42,7 @@
             "phonenumber": "202 581 1000",
             "websiteurl": "Galaxytech.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/technology.jpg",
+            "icon": "technology",
             "membershiplevel": "Bronze"
         },
         {
@@ -46,6 +51,7 @@
             "phonenumber": "202 691 1023",
             "websiteurl": "Tabletopemporium.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/tabletop.jpg",
+            "icon": "tabletop",
             "membershiplevel": "Bronze"
         },
         {
@@ -54,6 +60,7 @@
             "phonenumber": "202 241 3214",
             "websiteurl": "Itapizz.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/itapizz.jpg",
+            "icon": "itapizz",
             "membership level": "Silver"
         },
         {
@@ -62,6 +69,7 @@
             "phonenumber": "202 156 3501",
             "websiteurl": "Skyautomotive.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/automotive.jpg",
+            "icon": "automotive",
             "membershiplevel": "Gold"
         },
         {
@@ -70,6 +78,7 @@
             "phonenumber": "202 930 0843",
             "websiteurl": "Chtaxes.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxes.jpg",
+            "icon": "taxes",
             "membershiplevel": "Gold"
         },
         {
@@ -78,6 +87,7 @@
             "phonenumber": "202 999 6123",
             "websiteurl": "medhelp.org",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/medical.jpg",
+            "icon": "medical",
             "membershiplevel": "NP"
         }
 
