@@ -7,6 +7,8 @@
             "websiteurl": "Expresstaxi.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxi.jpg",
             "icon": "taxi",
+            "phrase": "Rides across Washington DC",
+            "selector": "0",
             "membershiplevel": "Silver"
         },
         {
@@ -16,6 +18,7 @@
             "websiteurl": "Watchesdel.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/watch.jpg",
             "icon": "watch",
+            "selector": "1",
             "membershiplevel": "Gold"
         },
         {
@@ -25,6 +28,7 @@
             "websiteurl": "Cloverboutique.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/clover.jpg",
             "icon": "clover",
+            "selector": "2",
             "membershiplevel": "Gold"
         },
         {
@@ -34,6 +38,7 @@
             "websiteurl": "Johnsontrust.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/trust.jpg",
             "icon": "trust",
+            "selector": "3",
             "membershiplevel": "Silver"
         },
         {
@@ -43,6 +48,7 @@
             "websiteurl": "Galaxytech.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/technology.jpg",
             "icon": "technology",
+            
             "membershiplevel": "Bronze"
         },
         {
@@ -52,6 +58,7 @@
             "websiteurl": "Tabletopemporium.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/tabletop.jpg",
             "icon": "tabletop",
+            
             "membershiplevel": "Bronze"
         },
         {
@@ -61,6 +68,7 @@
             "websiteurl": "Itapizz.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/itapizz.jpg",
             "icon": "itapizz",
+            "selector": "4",
             "membership level": "Silver"
         },
         {
@@ -70,6 +78,7 @@
             "websiteurl": "Skyautomotive.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/automotive.jpg",
             "icon": "automotive",
+            "selector": "5",
             "membershiplevel": "Gold"
         },
         {
@@ -79,6 +88,7 @@
             "websiteurl": "Chtaxes.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxes.jpg",
             "icon": "taxes",
+            "selector": "6",
             "membershiplevel": "Gold"
         },
         {
@@ -88,6 +98,7 @@
             "websiteurl": "medhelp.org",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/medical.jpg",
             "icon": "medical",
+            "selector": "7",
             "membershiplevel": "NP"
         }
 

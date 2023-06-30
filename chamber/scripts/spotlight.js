@@ -1,5 +1,5 @@
-const titleh2 = document.querySelector('#spotlight-h2');
-const titleimage = document.querySelector('#spotlight-image');
+const titleh2 = document.querySelector('.spotlight-h2');
+const titleimage = document.querySelector('.spotlight-image');
 
 
 const urlj = 'https://dportocarrero19.github.io/wdd230/chamber/json/data.json';
@@ -27,11 +27,12 @@ apiFetch();
 
 function displayResults(Business) {
     titleh2.innerHTML = `${Business.Businesses[1].name}`;
-    const icon =  `${Business.Businesses[1].image}`;
 
+    titleimage.innerHTML = `${Business.Businesses[1].address}`;
     const iconsrc = `https://dportocarrero19.github.io/wdd230/chamber/images/${Business.Businesses[1].icon}.jpg`;
 
     titleimage.setAttribute('src', iconsrc);
+    titleimage.setAttribute('alt', "brand icon images")
 
 }
 
