@@ -18,6 +18,7 @@
             "websiteurl": "Watchesdel.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/watch.jpg",
             "icon": "watch",
+            "phrase": "Look stylish with modern watches",
             "selector": "1",
             "membershiplevel": "Gold"
         },
@@ -28,6 +29,7 @@
             "websiteurl": "Cloverboutique.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/clover.jpg",
             "icon": "clover",
+            "phrase": "Clothes made with lucky patterns",
             "selector": "2",
             "membershiplevel": "Gold"
         },
@@ -38,6 +40,7 @@
             "websiteurl": "Johnsontrust.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/trust.jpg",
             "icon": "trust",
+            "phrase": "Trust us with your money",
             "selector": "3",
             "membershiplevel": "Silver"
         },
@@ -48,7 +51,7 @@
             "websiteurl": "Galaxytech.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/technology.jpg",
             "icon": "technology",
-            
+            "phrase": "Tech support 24/7",
             "membershiplevel": "Bronze"
         },
         {
@@ -58,7 +61,7 @@
             "websiteurl": "Tabletopemporium.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/tabletop.jpg",
             "icon": "tabletop",
-            
+            "phrase": "From cards to chessboards, we have it all",
             "membershiplevel": "Bronze"
         },
         {
@@ -68,6 +71,7 @@
             "websiteurl": "Itapizz.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/itapizz.jpg",
             "icon": "itapizz",
+            "phrase": "Italian pizza made fresh",
             "selector": "4",
             "membership level": "Silver"
         },
@@ -78,6 +82,7 @@
             "websiteurl": "Skyautomotive.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/automotive.jpg",
             "icon": "automotive",
+            "phrase": "Autoshop for all your automotive needs",
             "selector": "5",
             "membershiplevel": "Gold"
         },
@@ -88,6 +93,7 @@
             "websiteurl": "Chtaxes.com",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/taxes.jpg",
             "icon": "taxes",
+            "phrase": "Need help with your taxes? Call us",
             "selector": "6",
             "membershiplevel": "Gold"
         },
@@ -98,6 +104,7 @@
             "websiteurl": "medhelp.org",
             "image": "https://dportocarrero19.github.io/wdd230/chamber/images/medical.jpg",
             "icon": "medical",
+            "phrase": "Medical assitance for everyone",
             "selector": "7",
             "membershiplevel": "NP"
         }
