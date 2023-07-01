@@ -7,14 +7,14 @@ const url = 'https://api.openweathermap.org/data/2.5/weather?q=Washington+D.C.&a
 async function apiFetch() {
 
     try {
-      const response = await fetch(url);
-      if (response.ok) {
+        const response = await fetch(url);
+        if (response.ok) {
 
 
         const data = await response.json();
 
         console.log(data); 
-
+        
         displayResults(data);
 
         let temperature = Number(temperatureCalc(data));
