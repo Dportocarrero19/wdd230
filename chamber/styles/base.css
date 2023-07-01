@@ -240,7 +240,7 @@ h2 {
     
 }
 .spot-1 p, .spot-2 p, .spot-3 p {
-    color: white;
+    color: #C5D86D;
 }
 
 .spot-line {
@@ -264,6 +264,7 @@ h2 {
     padding: 25px;
     background-color: #2D3142;
     gap: 10px;
+    
     
 }
 
@@ -388,4 +389,23 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.contact-info {
+    background-color: #2D3142;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+    color: #C5D86D;
+    margin-bottom: 10px;
+    text-align: center;
 
+}
+.contact-main {
+    display: block;
+}
+.spot-h2 {
+    text-shadow: 1px 1px 10px black;
+    font-weight: bold;
+    color: #C5D86D;
+    font-size: 26px;
+}

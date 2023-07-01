@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Columbia Heights Chamber Of Commerce: Discover</title>
+    <meta name="Author" content="Dario Portocarrero">
+    <meta name="Description" content="Website for Chamber of Commerce of Columbia Heights, Washington DC.">
+    <title>Columbia Heights Chamber Of Commerce: Contact</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -14,9 +16,10 @@
     <header>
 
         <div id="meeting-time"></div>
-        
+
         <div class = "container">
             <a class="logolink" href="https://dportocarrero19.github.io/wdd230/chamber/index.html">
+
                 <div class = "logo">
                     <img class = "small-logo" src="images/Chamber-scales.webp" alt="Chamber logo for site">
                 
@@ -48,28 +51,44 @@
             <span class="date"></span>
         </div>
     </header>
-
     <main>
-
-        <div class="discover-img">
-            <p> Some demograhpics of the Columbia Heights area is 20.68 sq mi and holds a population of 300,000. It is located in the United States, near the Washington DC area. Many people in the city are students, and tourists. </p>
-            <img class="lazy" src="images/placeholder.jpg" data-src="images/bridge.jpg" alt="Bridge from washington dc">
-            <p> This historic bridge is located in the outskirts to enter the columbia heights area. The bridge was constructed in 1998 and features different historical events. Many tourists love to take pictures overlooking the river and watching the many boats that travel through.</p>
-            <img class="lazy" src="images/placeholder.jpg" data-src="images/castle.jpg" alt="Castle from Smithsonian">
-            <p> This castle building was erected by a famous wealthy donor. He was highly influential in the history of Columbia Heights and his home was turned into a museum. It holds art pieces from his time period, as well as innovations brought by other scholars. Many tourists and schools visit the building, seeing what it has to offer.</p>
-            <img class="lazy" src="images/placeholder.jpg" data-src="images/monument.jpg" alt="George Washington Monument">
-            <p> This is the residential area of Columbia Heights, which holds most of its population. There are many highrises for its populus and offers great views to see the city. The area is large and holds many different unique trees and fauna.</p>  
-            <img class="lazy" src="images/placeholder.jpg" data-src="images/sidewalk.jpg" alt="DC sidewalk">
-            <p> This district of Columbia Heights is known for its important government buildings. Many local officials live in this area. This is the area where the chamber is located. There are many buildings open to the public, although tours need to be reserved in advance.</p>  
-            <img class="lazy" src="images/placeholder.jpg" data-src="images/street.jpg" alt="DC Street"> 
-            <p> Here is our commercial hub of the city. It is located just a few miles from the government district and holds many places to shop. This area is often bustling with people looking to purchase the latest goods. The area is famously known for its many high luxury clothing stores. </p> 
-            <script src="scripts/lazyloading.js" defer></script>
+        <div class="contact-main">
+            <div class="contact-info">
+                
+                <form action="thankyou-question.html" method="get">
+                    <h2>Inquires</h2>
+                    <hr>
+                    <div class="form">
+                        <label for="name">Enter your name: </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form">
+                        <label for="email">Enter your email: </label>
+                        <input type="email" name="email" id="email" placeholder="text@email.com" required>
+                    </div>
+                    <div class="form">
+                        <label for="question">Question or Concern: </label>
+                        <textarea name="question" id="question" rows="4" cols="45"> </textarea>
+                    </div>
+                    <div class="join-now">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2> Contact Information</h2>
+                <hr>
+                <h3>Address</h3>
+                <p>Columbia Heights Chamber of Commerce</p>
+                <p>527 Sherman St.</p>
+                <p>Washington DC 20024</p>
+                <h3>Phone</h3>
+                <p>+1 (207) 815-4273</p>
+                <h3>Email</h3>
+                <p>info@ColumbiaHeightscc.org</p>
+            </div>
         </div>
-        
-        <p class="lastvisited">Days since last visited: <span class ="time"></span></p>
-        <script src="scripts/time.js"></script>
     </main>
-
     <footer>
         <div class= "footer-container">
             <div class="footer-grid">
@@ -85,6 +104,7 @@
                 <p>info@ColumbiaHeightscc.org </p>
                 <p>+1 (207) 815-4273</p>
                 <a class="location" href="https://www.google.com/maps/place/Columbia+Heights,+Washington,+DC/@38.9282979,-77.0411939,15z/data=!3m1!4b1!4m6!3m5!1s0x89b7c81e5c6ee1c1:0x569ff524d936e0a4!8m2!3d38.9276414!4d-77.0297181!16zL20vMDN2NTl4">Location map</a>
+                <p>Weather was taken from https://openweathermap.org.</p>
             </div>
         </div>
 

@@ -197,4 +197,9 @@
     .membership-section {
         line-height: 2;
     }
+    .contact-info {
+        padding: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }

@@ -113,4 +113,19 @@
     .list section {
         grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
     }
+    .contact-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+    }
+    .contact-info {
+        background-color: #2D3142;
+        border-radius: 20px;
+        
+        margin-top: 15px;
+        color: #C5D86D;
+        margin-bottom: 15px;
+        text-align: center;
+       
+    }
 }
