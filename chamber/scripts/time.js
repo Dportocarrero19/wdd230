@@ -1,17 +1,26 @@
 let date = new Date();
 
-let stampdate = new Date();
 
 
-localStorage.setItem("localdate", stampdate.getTime());
 
-let date2 = date.getTime();
+let diff = 0;
+
 
 let dateday = localStorage.getItem("localdate");
+if (dateday) {
 
-let difference = dateday-date2;
-let diff = difference / (1000 * 3600 * 24)
+    
+    dateday = new Date(dateday);
+    
+    
+    const difference = date.getTime()-dateday.getTime();
+    
+    diff = Math.ceil(difference / (1000 * 3600 * 24));
+}
 
-document.querySelector(".time").innerHTML = diff;
+localStorage.setItem("localdate", date);
+
+
+document.getElementById("timelast").textContent = diff;
 
 
