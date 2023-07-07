@@ -1,0 +1,115 @@
+body {
+    background-color: #FAF9F6;
+    font-family: "Dosis", sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #09814A;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #f7b05b;
+    
+    padding: 15px;
+    font-size: 18px;
+    justify-content:space-evenly;
+}
+
+nav a {
+    color: #09814A;
+    font-weight: 600;
+    
+}
+
+
+table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+#box-color-head {
+    background-color: #FAF9F6;
+}
+#box-color-nav {
+    background-color: #f7b05b;
+}
+
+
+#sample-header {
+    background-color: #FAF9F6;
+    color: #09814A;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#sample-navigation {
+    color: #09814A;
+    background-color: #f7b05b;
+    font-size: 18px;
+    font-weight: 600;
+}
+#sample-heading-1 {
+    color: #09814A;
+    font-size: 32px;
+    font-weight: bolder;
+}
+#sample-heading-2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color:#09814A;
+}
+#sample-heading-3 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #09814A;
+}
+
+
+#sample-paragraph {
+    font-size: 16px;
+    
+}
+
+
+body {
+    background-color: #FAF9F6;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: #ACECA1;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #09814A;
+    color: #FAF9F6;
+    padding: 5px;
+}
+
+@media only screen and (max-width:1439px) and (min-width:0px) {
+    nav {
+        flex-direction:row;
+        gap: 20px;
+        align-items: center;
+    }
+    table, tr, td {
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+}
