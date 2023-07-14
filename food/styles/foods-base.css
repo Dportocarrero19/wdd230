@@ -1,0 +1,110 @@
+body {
+    background-color: #FAF9F6;
+    font-family: "Dosis", sans-serif;
+    
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 0;   
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    
+}
+.logolink, .logolink:visited, .logolink:active, .logolink:link  {
+    text-decoration: none;
+    color: #09814A;
+}
+
+.navigation {
+    grid-column: 3;
+    grid-row: auto;
+    list-style: none;
+    text-align: center;
+    background-color: #f7b05b;
+}
+.navigation-list {
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sandwitch {
+    color:#09814A;
+    margin: -5px;
+}
+
+.media {
+    align-self: center;
+    justify-self: center;
+}
+
+.small-logo {
+    width: 75px;
+}
+.media-icons {
+    width: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #09814A;
+    height: 25px;
+}
+
+.responsive li {
+    display: block;
+    padding: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #09814A;
+    color: #FAF9F6;
+    padding: 5px 0;
+    padding-left:10px;
+    
+}
+
+#bottom {
+    text-align: center;
+}
+
+.big-logo {
+    width: 150px;
+}
+.footer-container {
+    text-align: center;
+}

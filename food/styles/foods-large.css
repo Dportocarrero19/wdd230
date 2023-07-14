@@ -1,0 +1,34 @@
+@media screen and (min-width:1224px) {
+    
+
+    .navigation {
+        font-size: 25px;
+        justify-self: flex-end;
+    }
+
+    .navigation-list li:first-child {
+        display: none;  
+    }
+
+    .navigation-list li{
+        display: block;
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+    .navigation-list {
+        display: flex;
+    }
+    h1 {
+        font-size: 35px;
+    }
+
+   
+
+    
+
+
+
+
+
+
+}
