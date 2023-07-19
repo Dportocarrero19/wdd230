@@ -116,6 +116,47 @@ footer {
     margin-bottom: 15px;
 
 }
+.pink-cards {
+    background-color: #FC6471;
+    color: #FAF9F6;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.light-cards {
+    background-color: #aceca1;
+    color: #FAF9F6;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.join {
+    display: none;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #FAF9F6;
+    
+}
+#center-join {
+    text-align: center;
+    font-size: 19px;
+}
+.join-button {
+    color:#FAF9F6;
+    background-color: #09814A;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    font-size: 40px;
+    box-shadow: black 1px 1px 10px 3px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
 .forecast {
     background-color: #f7b05b;
     padding: 20px;

@@ -1,3 +1,10 @@
+let form = document.getElementById("form");
+function submitForm(event){
+    event.preventDefault();
+}
+form.addEventListener('submit',submitForm);
+
+
 let urlform = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 let fruitjson = 0;
 
@@ -26,18 +33,6 @@ async function apiFetch() {
             let option = document.createElement('option');
             option.text = fruit;
             select.appendChild(option); 
-            
-            
-            /*
-            function logSubmit(event) {
-                log.textContent = `Form Submitted! Timestamp: ${event.timeStamp}`+ fruit;
-                event.preventDefault();
-            }
-              
-            const form = document.getElementById("form");
-            const log = document.getElementById("log");
-            form.addEventListener("submit", logSubmit);
-            */
         });
 
 
@@ -130,31 +125,140 @@ async function getsel1(){
         if (response.ok) {
         const data = await response.json();
 
+        
+        let name = document.getElementById("name").value;
+        document.getElementById('sub-name').innerHTML =name;
+
+        let email = document.getElementById("email").value;
+        document.getElementById('sub-email').innerHTML =email;
+        let phone = document.getElementById("phone").value;
+        document.getElementById('sub-phone').innerHTML =phone;
+        
+
+        
+
 
         let sel = document.querySelector('#select1');
+        let sel2 = document.querySelector('#select2');
+        let sel3 = document.querySelector('#select3');
+
         let output = sel.value;
-        
-
+        let output2 = sel2.value;
+        let output3 = sel3.value;
         let fruitlist = formurl(data);
+        fruitlist.forEach((fruit3)=> {
+            fruitlist.forEach((fruit2)=> {
+                fruitlist.forEach((fruit)=> {
+                    if(output === fruit && output2 === fruit2 && output3 ===fruit3){
+                        let index = fruitlist.indexOf(fruit);
+                        let index2 = fruitlist.indexOf(fruit2);
+                        let index3 = fruitlist.indexOf(fruit3);
+                        
+                        /*Calories */
+                        function cal(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index].nutritions.calories}`;
+                        }
+                        function cal2(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index2].nutritions.calories}`;
+                        }
+                        function cal3(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index3].nutritions.calories}`;
+                        }
 
-        
+                        let calories = cal(data);
+                        let calories2 = cal2(data);
+                        let calories3 = cal3(data);
+                        
+                        let totalcal = Number(calories) + Number(calories2) + Number(calories3);
+                        
+                        document.getElementById('calories').innerHTML = totalcal;
 
-        fruitlist.forEach((fruit)=> {
-            if(output === fruit){
-                let index = fruitlist.indexOf(fruit);
-                
-                function cal(fruitdata){
-                    return fruitjson.innerHTML = `${fruitdata[index].nutritions.calories}`
-                }
+                        /*Sugar */
+                        function sugr1(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index].nutritions.sugar}`;
+                        }
+                        function sugr2(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index2].nutritions.sugar}`;
+                        }
+                        function sugr3(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index3].nutritions.sugar}`;
+                        }
 
+                        let sugar = sugr1(data);
+                        let sugar2 = sugr2(data);
+                        let sugar3 = sugr3(data);
+                        let totalsugar = Number(sugar) + Number(sugar2) + Number(sugar3);
+                        
+                        document.getElementById('sugar').innerHTML = Math.round(totalsugar * 10) / 10;
 
-                let calories = cal(data);
-                console.log(calories);
-                document.getElementById('calories').innerHTML = calories;
-               
-            }
+                        /* Fats */
+                        function fats1(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index].nutritions.fat}`;
+                        }
+                        function fats2(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index2].nutritions.fat}`;
+                        }
+                        function fats3(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index3].nutritions.fat}`;
+                        }
 
+                        let fat = fats1(data);
+                        let fat2 = fats2(data);
+                        let fat3 = fats3(data);
+                        let totalfat = Number(fat) + Number(fat2) + Number(fat3);
+                        
+                        document.getElementById('fat').innerHTML = Math.round(totalfat * 10) / 10;
+
+                        /* Proteins */
+                        function proteins1(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index].nutritions.protein}`;
+                        }
+                        function proteins2(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index2].nutritions.protein}`;
+                        }
+                        function proteins3(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index3].nutritions.protein}`;
+                        }
+
+                        let protein = proteins1(data);
+                        let protein2 = proteins2(data);
+                        let protein3 = proteins3(data);
+                        let totalprotein = Number(protein) + Number(protein2) + Number(protein3);
+                        
+                        document.getElementById('protein').innerHTML = Math.round(totalprotein * 10) / 10;
+
+                        /* Carbohydrates */
+                        function Carbohydrates1(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index].nutritions.carbohydrates}`;
+                        }
+                        function Carbohydrates2(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index2].nutritions.carbohydrates}`;
+                        }
+                        function Carbohydrates3(fruitdata){
+                            return fruitjson.innerHTML = `${fruitdata[index3].nutritions.carbohydrates}`;
+                        }
+
+                        let carbs = Carbohydrates1(data);
+                        let carbs2 = Carbohydrates2(data);
+                        let carbs3 = Carbohydrates3(data);
+                        let totalcarbs = Number(carbs) + Number(carbs2) + Number(carbs3);
+                        
+                        document.getElementById('carbohydrates').innerHTML = Math.round(totalcarbs * 10) / 10;
+                    }
+                    
+                });
+            });
         });
+
+
+
+
+
+
+
+
+
+
 
 
 

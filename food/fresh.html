@@ -46,7 +46,7 @@
                 <h2>Specialty Drink Creator</h2>
                 <hr>
                 <div class="form">
-                    <label for="name">Enter your name: </label>
+                    <label for="name">Enter your first name: </label>
                     <input type="text" name="name" id="name" required>
                 </div>
                 <div class="form">
@@ -55,9 +55,9 @@
                 </div>
                 <div class="form">
                     <label for="phone">Enter your phone number:</label>
-                    <input type="tel" id="phone" name="phone">
+                    <input type="tel" id="phone" name="phone" required>
                 </div>
-                <p id="select-drink">Select three fruits for your drink.</p>
+                <p id="select-drink">Select three fruits for your drink</p>
                 <div class="form-grid">
                     <div class="form">
                         <label for="select"></label>
@@ -72,13 +72,30 @@
                         <select name="select" id="select3"></select>
                     </div>   
                 </div>
+                <div class="form">
+                    <label for="textbox">Enter any Special Instructions</label>
+                    <textarea id="textbox" name="textbox" row="5" cols="40"></textarea>
+                </div>
                 <button type="submit">Submit</button>
                 
             </form>
         </div>
         <div class="cards">
             <h2>Your Created Drink</h2>
-            <p><span id="calories"></span></p>
+            <hr>
+            <p>Total Carbohydrates: <span id="carbohydrates"></span></p>
+            <p>Total Protein: <span id="protein"></span></p>
+            <p>Total Fat: <span id="fat"></span></p>
+            <p>Total Sugar: <span id="sugar"></span></p>
+            <p>Total Calories: <span id="calories"></span></p>
+
+            
+            <h2> Your Submitted Information</h2>
+            <hr>
+            <p>First Name: <span id="sub-name"></span></p>
+            <p>Email: <span id="sub-email"></span></p>
+            <p>Phone Number: <span id="sub-phone"></span></p>
+            <p>Special Inscructions: <span id="sub-special"></span></p>
         </div>
 
         <script src="scripts/form.js"></script>
