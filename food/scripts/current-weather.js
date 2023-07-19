@@ -17,11 +17,6 @@ async function apiFetch() {
         
         displayResults(data);
 
-        let temperature = Number(temperatureCalc(data));
-        
-        let windspeed = Number(windspeedCalc(data));
-        
-        
 
         let picweather = weatherdesc(data);
         
@@ -125,21 +120,6 @@ async function apiFetch() {
             document.getElementById("weather-div").appendChild(img);
         }
 
-        document.querySelector('.windspeed').innerHTML = windspeed;
-
-        if (temperature <= 50 && windspeed > 3.0){
-            
-            let urWindChill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windspeed,0.16)) + (0.4275 * temperature * Math.pow(windspeed,0.16))
-            
-            let windChill = Math.round(urWindChill);
-
-            document.querySelector(".windchill").innerHTML = windChill + " F";
-
-        }
-        else {
-            document.querySelector(".windchill").innerHTML = "N/A";
-        }
-
 
       } else {
           throw Error(await response.text());
@@ -167,10 +147,6 @@ function icons(weatherData) {
 
 function temperatureCalc(weatherData) {
     return currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}`;
-}
-
-function windspeedCalc(weatherData) {
-    return currentWindspeed.innerHTML = `${weatherData.wind.speed}`;
 }
 
 

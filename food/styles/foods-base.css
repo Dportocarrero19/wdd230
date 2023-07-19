@@ -130,3 +130,25 @@ footer {
     text-align: center;
 			
 }
+
+/* forecast */
+
+.weather-forecast-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.weather-forecast-grid .forecast-grid {
+    text-align: center;
+}
+
+/* Forms */
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#select-drink {
+    text-align: center;
+    font-weight: bold;
+}
