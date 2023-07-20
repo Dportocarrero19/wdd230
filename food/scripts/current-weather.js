@@ -1,7 +1,10 @@
 const currentTemp = document.querySelector('.temperature');
+const currenthum = document.querySelector('.humidity');
+
 let currentWindspeed = 0;
 let weather = 0;
 let icon = 0;
+let humidity = 0;
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=e8aa277b674ac952582729aca4cd796f&units=imperial';
 
 async function apiFetch() {
@@ -20,6 +23,8 @@ async function apiFetch() {
 
         let picweather = weatherdesc(data);
         
+        
+
         
         document.querySelector('.weatherpic').innerHTML = picweather;
 
@@ -135,6 +140,7 @@ apiFetch();
 
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    currenthum.innerHTML = `<strong>${weatherData.main.humidity}</strong>`;
 }
 
 function weatherdesc(weatherData) {

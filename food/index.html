@@ -15,7 +15,7 @@
         <div class = "container">
             <a class="logolink" href="https://dportocarrero19.github.io/wdd230/food/index.html">
                 <div class = "logo">
-                    <img class = "small-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site">
+                    <img class = "small-logo" src="images/Bountiful-logo.png" alt="bountiful logo for site">
                     <h1>Bountiful Foods</h1>     
                 </div>
             </a>
@@ -39,24 +39,34 @@
         <script src="scripts/responsive.js"></script>
     </header>
     <main>
-        <img class="fruit-hero" src="images/Fruit-hero-min.jpg" width="100%" height="px">
+        <div class="fruit-main-img">
+            <img class="lazy" src="images/placeholder.png" data-src="images/Fruit-hero-min.jpg" alt="fruit hero image for site">
+
+        </div>
         <div class="cards">
             <p>Coastal California is a great place for you and your family to visit. It is a great place to relax and visit the beach. There are many shops and tourist attractions in the city of Carlsbad near our headquarters. Because of the hot weather, it is recommended you get some of our fruit products and craft yourself a refreshing drink! </p>
         </div>   
          
         <div class="forecast">
             <h2 class="title-outline">Forecast</h2>
-            <div class = "cards">
-                <h3 class="title-outline">Current Weather</h3>
-                <div id="weather-grid">
-                    <div id="weather-div"></div>
-                    <p class="current-temp"><span class="temperature"></span> F</p>
-                </div>
-                <hr>
-                <p id="skycenter"><span class="weatherpic"></span></p>
+            <div class="weather-grid-two">
                 
+                <div class = "cards">
+                    <h3 class="title-outline">Current Weather</h3>
+                    <div id="weather-grid">
+                        <div id="weather-div"></div>
+                        <p class="current-temp"><span class="temperature"></span> F</p>    
+                    </div>
+                    <p class="skycenter">Humidity: <span class="humidity"></span>%</p>
+                    <hr>
+                    <p class="skycenter"><span class="weatherpic"></span></p>
+                        
+                </div>
+                <div class = "cards">  
+                    <h2 class="title-outline">Weather Warning!</h2> 
+                    <p>Be careful about the weather! Extreme heat is common in the California area. Make sure to have plenty of water and sunscreen when going outside. Because of the common occurance of earthquakes, floods may be possible. Be safe! </p>
+                </div> 
             </div>
-        
             <div class = "cards">
                 <h3 class="title-outline">3-Day Forecast</h3>
 
@@ -99,16 +109,6 @@
                 </div>
                 
             </div>
-            <div class = "cards">   
-                <div id="weather-grid">
-                    <div id="weather-div"></div>
-                    <p class="temp"><span class="temperature"></span> F</p>
-                </div>
-                <p><span class="weatherpic"></span></p>
-                <hr>
-                <p>Wind Speed: <span class="windspeed"></span> mph</p>
-                <p>Wind Chill: <span class="windchill"></span></p>
-            </div>
             <script src="scripts/current-weather.js"></script>
             <script src="scripts/forecast.js"></script>
         </div>
@@ -119,15 +119,20 @@
                 </a>
                 <p id="center-join">Make your own special drink using different ingredients.</p>
             </div>
-            <div class="light-cards">
-                <h2></h2>
+            <div class="drink-photo">
+                <img class="lazy" src="images/placeholder.png" data-src="images/drink.png" alt="photo of drink">
+            </div>
+            <div class="pink-cards">
+                <h2>Total Drinks</h2>
+                <hr>
+                <p>You have created a total of : 0 Drinks</p>
             </div>
         </div>
         
     </main>
     <footer>
         <div class= "footer-container">
-            <img class = "big-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site" >
+            <img class= "big-logo" src="images/Bountiful-logo.png" alt="bountiful logo for site" >
             <div class="info">
                 <p>3700 S Plaza Drive, 92704</p>
                 <p>Carlsbad, California</p>
@@ -137,9 +142,10 @@
         </div>
     
         <hr>
-        <p id="bottom"></span>Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
+        <p id="bottom">Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
         <script src="scripts/footer.js"></script>
     </footer>
+    <script src="scripts/lazyloading.js"></script>
 </body>
 
 </html>

@@ -19,5 +19,7 @@
         margin-left: -50%;
     }
 
-
+    .drink-photo {
+        display: none;
+    }
 }

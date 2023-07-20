@@ -13,9 +13,9 @@
 <body>
     <header>
         <div class = "container">
-            <a class="logolink" href="https://dportocarrero19.github.io/wdd230/chamber/index.html">
+            <a class="logolink" href="https://dportocarrero19.github.io/wdd230/food/index.html">
                 <div class = "logo">
-                    <img class = "small-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site">
+                    <img class = "small-logo" src="images/Bountiful-logo.png" alt="bountiful foods logo for site">
                     <h1>Bountiful Foods</h1>     
                 </div>
             </a>
@@ -30,20 +30,19 @@
             <nav>
                 <ul class = navigation-list>
                     <li><a href="#" class="sandwitch" onclick="toggleMenu()">&#9776;</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/discover.html">Discover</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/directory.html">Directory</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/join.html">Join</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/contact.html">Contact</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/index.html">Home</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/Fresh.html">Specialty Drink</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/About-us.html">About us</a></li>
                 </ul>
             </nav>
         </div>
         <script src="scripts/responsive.js"></script>
     </header>
     <main>
-        <img class="fruit-hero" src="images/berry-drink.jpg" width="100%" height="px">
+        <img class="lazy" src="images/placeholder.png" data-src="images/berry-drink.jpg" alt="berry fruit drink img">
         <div class="cards">
             <form id="form" onsubmit="getsel1()">
-                <h2>Specialty Drink Creator</h2>
+                <h2 class="h2-white">Specialty Drink Creator</h2>
                 <hr>
                 <div class="form">
                     <label for="name">Enter your first name: </label>
@@ -55,55 +54,60 @@
                 </div>
                 <div class="form">
                     <label for="phone">Enter your phone number:</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" id="phone" name="phone" required placeholder="888 888 8888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12">
+                </div>
+                <div class="form">
+                    <label for="textbox">Enter any Special Instructions:</label>
+                    <textarea id="textbox" name="textbox" rows="3" cols="40"></textarea>
                 </div>
                 <p id="select-drink">Select three fruits for your drink</p>
                 <div class="form-grid">
                     <div class="form">
-                        <label for="select"></label>
+                        
                         <select name="select" id="select1"></select>
                     </div>
                     <div class="form">
-                        <label for="select"></label>
+                        
                         <select name="select" id="select2"></select>
                     </div>
                     <div class="form">
-                        <label for="select"></label>
+                        
                         <select name="select" id="select3"></select>
                     </div>   
                 </div>
-                <div class="form">
-                    <label for="textbox">Enter any Special Instructions</label>
-                    <textarea id="textbox" name="textbox" row="5" cols="40"></textarea>
+                <div class="pink-center">
+                    <button type="submit">Submit</button>
                 </div>
-                <button type="submit">Submit</button>
                 
             </form>
         </div>
-        <div class="pink-cards">
-            <h2>Your Created Drink</h2>
-            <hr>
-            <p>Total Carbohydrates: <span id="carbohydrates"></span></p>
-            <p>Total Protein: <span id="protein"></span></p>
-            <p>Total Fat: <span id="fat"></span></p>
-            <p>Total Sugar: <span id="sugar"></span></p>
-            <p>Total Calories: <span id="calories"></span></p>
-
-            
-            <h2> Your Submitted Information</h2>
-            <hr>
-            <p>First Name: <span id="sub-name"></span></p>
-            <p>Email: <span id="sub-email"></span></p>
-            <p>Phone Number: <span id="sub-phone"></span></p>
-            <p>Special Inscructions: <span id="sub-special"></span></p>
+        <div class="pink-center">
+            <div class="pink-cards">
+                <h2>Your Created Drink</h2>
+                <hr>
+                <p>Total Carbohydrates: <span id="carbohydrates"></span></p>
+                <p>Total Protein: <span id="protein"></span></p>
+                <p>Total Fat: <span id="fat"></span></p>
+                <p>Total Sugar: <span id="sugar"></span></p>
+                <p>Total Calories: <span id="calories"></span></p>
+    
+                
+                <h2> Your Submitted Information</h2>
+                <hr>
+                <p>First Name: <span id="sub-name"></span></p>
+                <p>Email: <span id="sub-email"></span></p>
+                <p>Phone Number: <span id="sub-phone"></span></p>
+                <p>Special Inscructions: <span id="sub-special"></span></p>
+            </div>
         </div>
+        
 
         <script src="scripts/form.js"></script>
     </main>
     <footer>
         <div class= "footer-container">
-            <img class = "big-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site" >
-            <div>
+            <img class = "big-logo" src="images/Bountiful-logo.png" alt="bountiful foods logo for site" >
+            <div class="info">
                 <p>3700 S Plaza Drive, 92704</p>
                 <p>Carlsbad, California</p>
                 <p>Bountifulfoods@gmail.com</p>
@@ -112,9 +116,11 @@
         </div>
     
         <hr>
-        <p id="bottom"></span>Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
+        <p id="bottom">Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
         <script src="scripts/footer.js"></script>
     </footer>
-
+    <script src="scripts/lazyloading.js"></script>
 
 </body>
+
+</html>

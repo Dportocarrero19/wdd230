@@ -21,12 +21,26 @@
     h1 {
         font-size: 35px;
     }
-
-   
-
     
-
-
+   
+    .drink-photo {
+        display: block;
+    }
+    .drink-image {
+        border-radius: 25px;
+   
+    }
+    
+    .contain-drinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    .weather-grid-two {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35%;
+    }
 
 
 

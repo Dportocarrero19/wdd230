@@ -13,9 +13,9 @@
 <body>
     <header>
         <div class = "container">
-            <a class="logolink" href="https://dportocarrero19.github.io/wdd230/chamber/index.html">
+            <a class="logolink" href="https://dportocarrero19.github.io/wdd230/food/index.html">
                 <div class = "logo">
-                    <img class = "small-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site">
+                    <img class = "small-logo" src="images/Bountiful-logo.png" alt="bountiful foods logo for site">
                     <h1>Bountiful Foods</h1>     
                 </div>
             </a>
@@ -30,10 +30,9 @@
             <nav>
                 <ul class = navigation-list>
                     <li><a href="#" class="sandwitch" onclick="toggleMenu()">&#9776;</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/discover.html">Discover</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/directory.html">Directory</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/join.html">Join</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/contact.html">Contact</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/index.html">Home</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/Fresh.html">Specialty Drink</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/About-us.html">About us</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,27 +40,29 @@
     </header>
     <main>
         <h2>About us</h2>
-        <img class="fruit-hero" src="images/farm.png" width="100%" height="px">
-        <div class="pink-cards">
-            <p>We are a small business that specializes in organic, locally grown foods based in Carlsbad, California. We cover the area from Los Angeles to San Diego and produce directly from the farmers in the area. Our mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags to the local population and to tourists visiting the coastal area.</p>
-            <div class="orange-cards">
-                <h2>Contact information</h2>
-                <hr>
-                <h3>Address</h3>
-                <p>3700 S Plaza Dr.</p>
-                <p>Carlsbad, California 92704</p>
-                <h3>Phone</h3>
-                <p>(714) 556-0466</p>
-                <h3>Email</h3>
-                <p>Bountifulfoods@gmail.com</p>
+        <img class="lazy" src="images/placeholder.png" data-src="images/farm.png" alt="California farm image">
+        <div class="pink-center">
+            <div class="pink-cards">
+                <p>We are a small business that specializes in organic, locally grown foods based in Carlsbad, California. We cover the area from Los Angeles to San Diego and produce directly from the farmers in the area. Our mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags to the local population and to tourists visiting the coastal area.</p>
+                <div class="orange-cards">
+                    <h2>Contact information</h2>
+                    <hr>
+                    <h3>Address</h3>
+                    <p>3700 S Plaza Dr.</p>
+                    <p>Carlsbad, California 92704</p>
+                    <h3>Phone</h3>
+                    <p>(714) 556-0466</p>
+                    <h3>Email</h3>
+                    <p>Bountifulfoods@gmail.com</p>
+                </div> 
             </div>
-            
         </div>
-        <img class="fruit-hero" src="images/Coast.png" width="100%" height="px">
+        
+        <img class="lazy" src="images/placeholder.png" data-src="images/Coast.png"  alt="California coast image">
         <div class="cards">
             <p>The California coast is a great place to visit and relax. Many of our customers from this area love to take walks along the coast while drinking a fresh smoothie from our fruit products. Tourists love to visit the beach and swim through the calm waters. Make sure you pack your sunscreen, as the heat is very impactful. Our company is proud to use clean energy to keep the waters crystal clear!</p>
         </div>
-        <img class="fruit-hero" src="images/beach.png" width="100%" height="px">
+        <img class="lazy" src="images/placeholder.png" data-src="images/beach.png" alt="California beach image">
         <div class="orange-cards">
             <p>Our company headquarters is located in the heart of Carlsbad. We have our main offices located here, as well as many local stores which sell our products. There are many places to shop in the area, including souvenirs for tourists.  The city has its own airport, as well as plenty of public transportation to help you get around.</p>
         </div>
@@ -71,8 +72,8 @@
     </main>
     <footer>
         <div class= "footer-container">
-            <img class = "big-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site" >
-            <div>
+            <img class = "big-logo" src="images/Bountiful-logo.png" alt="bountiful foods logo for site" >
+            <div class="info">
                 <p>3700 S Plaza Dr.</p>
                 <p>Carlsbad, California 92704</p>
                 <p>Bountifulfoods@gmail.com</p>
@@ -81,9 +82,10 @@
         </div>
     
         <hr>
-        <p id="bottom"></span>Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
+        <p id="bottom">Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
         <script src="scripts/footer.js"></script>
     </footer>
+    <script src="scripts/lazyloading.js"></script>
 </body>
 
 </html>

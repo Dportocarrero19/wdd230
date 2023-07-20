@@ -198,7 +198,7 @@ a:link {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#skycenter {
+.skycenter {
     font-size: 35px;
     text-align: center;
     margin: -1px;
@@ -210,12 +210,15 @@ a:link {
 .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
 #select-drink {
     text-align: center;
     font-weight: bold;
 }
-
+#form {
+    text-align: center;
+}
 /* About us */
 h2 {
     color: #09814A;
@@ -223,4 +226,16 @@ h2 {
 }
 h3 {
     color: #09814A;
+}
+.h2-white {
+    color: #FAF9F6;
+}
+.pink-center {
+    text-align: center;
+}
+.drink-photo {
+    display: none;
+}
+.lazy {
+    width: 100%;
 }

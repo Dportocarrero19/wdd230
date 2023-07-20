@@ -134,7 +134,8 @@ async function getsel1(){
         let phone = document.getElementById("phone").value;
         document.getElementById('sub-phone').innerHTML =phone;
         
-
+        let textarea = document.getElementById("textbox").value;
+        document.getElementById('sub-special').innerHTML =textarea;
         
 
 
