@@ -1,4 +1,23 @@
 @media screen and (min-width:760px) {
 
+    .contain-drinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .weather-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .weather-slash {
+        display: none;
+    }
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -50%;
+    }
+
 
 }

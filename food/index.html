@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class = "container">
-            <a class="logolink" href="https://dportocarrero19.github.io/wdd230/chamber/index.html">
+            <a class="logolink" href="https://dportocarrero19.github.io/wdd230/food/index.html">
                 <div class = "logo">
                     <img class = "small-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site">
                     <h1>Bountiful Foods</h1>     
@@ -30,10 +30,9 @@
             <nav>
                 <ul class = navigation-list>
                     <li><a href="#" class="sandwitch" onclick="toggleMenu()">&#9776;</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/discover.html">Discover</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/directory.html">Directory</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/join.html">Join</a></li>
-                    <li><a href="https://dportocarrero19.github.io/wdd230/chamber/contact.html">Contact</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/index.html">Home</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/Fresh.html">Specialty Drink</a></li>
+                    <li><a href="https://dportocarrero19.github.io/wdd230/food/About-us.html">About us</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +41,7 @@
     <main>
         <img class="fruit-hero" src="images/Fruit-hero-min.jpg" width="100%" height="px">
         <div class="cards">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Coastal California is a great place for you and your family to visit. It is a great place to relax and visit the beach. There are many shops and tourist attractions in the city of Carlsbad near our headquarters. Because of the hot weather, it is recommended you get some of our fruit products and craft yourself a refreshing drink! </p>
         </div>   
          
         <div class="forecast">
@@ -51,57 +50,56 @@
                 <h3 class="title-outline">Current Weather</h3>
                 <div id="weather-grid">
                     <div id="weather-div"></div>
-                    <p class="temp"><span class="temperature"></span> F</p>
+                    <p class="current-temp"><span class="temperature"></span> F</p>
                 </div>
-                <p><span class="weatherpic"></span></p>
                 <hr>
-                <p>Wind Speed: <span class="windspeed"></span> mph</p>
-                <p>Wind Chill: <span class="windchill"></span></p>
+                <p id="skycenter"><span class="weatherpic"></span></p>
                 
             </div>
         
             <div class = "cards">
                 <h3 class="title-outline">3-Day Forecast</h3>
-                <div class="weather-forecast-grid">
-                    <div class="forecast-grid">
-                        <span id="date-div1"></span>
-                        <span id="forecast-div1"></span>
-                    </div>
-                    <div>
-                        <p>Temperature: <span id="temperature-div1"></span> F</p>
-                        <span id="temperature-desc-div1"></span>
-                        <p>Humidity: <span id="humidity-div1"></span>%</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="weather-forecast-grid">
-                    <div class="forecast-grid">
-                        <span id="date-div2"></span>
-                        <span id="forecast-div2"></span>
-                    </div>
-                    <div>
-                        <p>Temperature: <span id="temperature-div2"></span> F</p>
-                        <span id="temperature-desc-div2"></span>
-                        <p>Humidity: <span id="humidity-div2"></span>%</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="weather-forecast-grid">
-                    <div class="forecast-grid">
-                        <span id="date-div3"></span>
-                        <span id="forecast-div3"></span>
-                    </div>
-                    <div>
-                        <p>Temperature: <span id="temperature-div3"></span> F</p>
-                        <span id="temperature-desc-div3"></span>
-                        <p>Humidity: <span id="humidity-div3"></span>%</p>
-                    </div>
-                </div>
 
+                <div class ="weather-container">
+                    <div class="weather-forecast-grid">
+                        <div class="forecast-grid">
+                            <span id="date-div1"></span>
+                            <span id="forecast-div1"></span>
+                        </div>
+                        <div>
+                            <p>Temperature: <span id="temperature-div1"></span> F</p>
+                            <span id="temperature-desc-div1"></span>
+                            <p>Humidity: <span id="humidity-div1"></span>%</p>
+                        </div>
+                    </div>
+                    <hr class="weather-slash">
+                    <div class="weather-forecast-grid">
+                        <div class="forecast-grid">
+                            <span id="date-div2"></span>
+                            <span id="forecast-div2"></span>
+                        </div>
+                        <div>
+                            <p>Temperature: <span id="temperature-div2"></span> F</p>
+                            <span id="temperature-desc-div2"></span>
+                            <p>Humidity: <span id="humidity-div2"></span>%</p>
+                        </div>
+                    </div>
+                    <hr class="weather-slash">
+                    <div class="weather-forecast-grid">
+                        <div class="forecast-grid">
+                            <span id="date-div3"></span>
+                            <span id="forecast-div3"></span>
+                        </div>
+                        <div>
+                            <p>Temperature: <span id="temperature-div3"></span> F</p>
+                            <span id="temperature-desc-div3"></span>
+                            <p>Humidity: <span id="humidity-div3"></span>%</p>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
-            <div class = "cards">
-                
+            <div class = "cards">   
                 <div id="weather-grid">
                     <div id="weather-div"></div>
                     <p class="temp"><span class="temperature"></span> F</p>
@@ -114,37 +112,32 @@
             <script src="scripts/current-weather.js"></script>
             <script src="scripts/forecast.js"></script>
         </div>
-        <div class="pink-cards">
-            <a href="https://dportocarrero19.github.io/wdd230/food/fresh.html">
-                <p class="join-button">Create your own Drink!</p>
-            </a>
-            <p id="center-join">Make your own special drink using different ingredients.</p>
+        <div class="contain-drinks">
+            <div class="pink-cards">
+                <a href="https://dportocarrero19.github.io/wdd230/food/fresh.html">
+                    <p class="join-button">Create your own Drink!</p>
+                </a>
+                <p id="center-join">Make your own special drink using different ingredients.</p>
+            </div>
+            <div class="light-cards">
+                <h2></h2>
+            </div>
         </div>
-        <div class="light-cards">
-            <h2></h2>
-        </div>
+        
     </main>
     <footer>
         <div class= "footer-container">
-            <div class="footer-grid">
-                <img class = "big-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site">
-                <div>
-                    <h4>Columbia Heights Chamber of Commerce</h4>
-                    <p>527 Sherman St.</p>
-                    <p>Washington DC 20024</p>
-                </div>
-            </div>
-    
-            <div class="contact-grid">
-                <p>info@ColumbiaHeightscc.org </p>
-                <p>+1 (207) 815-4273</p>
-                <a class="location" href="https://www.google.com/maps/place/Columbia+Heights,+Washington,+DC/@38.9282979,-77.0411939,15z/data=!3m1!4b1!4m6!3m5!1s0x89b7c81e5c6ee1c1:0x569ff524d936e0a4!8m2!3d38.9276414!4d-77.0297181!16zL20vMDN2NTl4">Location map</a>
-                <p>Weather was taken from https://openweathermap.org.</p>
+            <img class = "big-logo" src="images/Bountiful-logo.png" alt="Chamber logo for site" >
+            <div class="info">
+                <p>3700 S Plaza Drive, 92704</p>
+                <p>Carlsbad, California</p>
+                <p>Bountifulfoods@gmail.com</p>
+                <p>(714) 556-0466</p>
             </div>
         </div>
     
         <hr>
-        <p id="bottom">&copy; <span class="currentyear"></span> Columbia Heights Chamber | Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
+        <p id="bottom"></span>Dario Portocarrero | WDD 230 Project | Last Modification <span class = "updated"></span></p>
         <script src="scripts/footer.js"></script>
     </footer>
 </body>

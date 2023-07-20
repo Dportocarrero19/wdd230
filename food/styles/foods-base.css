@@ -102,7 +102,8 @@ footer {
     width: 150px;
 }
 .footer-container {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /*Main*/
@@ -118,6 +119,14 @@ footer {
 }
 .pink-cards {
     background-color: #FC6471;
+    color: #FAF9F6;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.orange-cards {
+    background-color: #f7b05b;
     color: #FAF9F6;
     padding: 15px;
     border-radius: 25px;
@@ -182,6 +191,19 @@ a:link {
 .weather-forecast-grid .forecast-grid {
     text-align: center;
 }
+.current-temp {
+    font-size: 40px;
+}
+#weather-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#skycenter {
+    font-size: 35px;
+    text-align: center;
+    margin: -1px;
+}
+
 
 /* Forms */
 
@@ -192,4 +214,13 @@ a:link {
 #select-drink {
     text-align: center;
     font-weight: bold;
+}
+
+/* About us */
+h2 {
+    color: #09814A;
+    text-align: center;
+}
+h3 {
+    color: #09814A;
 }
